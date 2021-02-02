@@ -1,5 +1,7 @@
 # CALM Task
 
+This library implements the task described at the paper [_Evaluating Online Continual Learning with CALM_](https://github.com/germank/calm).
+
 ## Installation 
 
 Download the required corpora by going into the data directory and running
@@ -49,3 +51,21 @@ numpy random generator to randomly switch between classes. It takes
     * `total_pp`: mean overall perplexity.
     * `ppl@sw`: mean perplexity restricted to the first 10 batches after a switch.
     * `rec`: number of batches that the model needs to recover back to the mean loss on the last sequence of a same class.
+
+
+## Replication of the paper's results
+
+If you want to replicate our own experiments, you can find the code we used [here](https://github.com/germank/lifelonglm).
+
+## Citation
+
+Should you want to cite this work, you can use the following BibTeX entry:
+
+```
+@article{Kruszewski:Sorodoc:Mikolov:2020,
+  title={Class-Agnostic Continual Learning of Alternating Languages and Domains},
+  author={Kruszewski, Germ{\'a}n and Sorodoc, Ionut-Teodor and Mikolov, Tomas},
+  journal={arXiv preprint arXiv:2004.03340},
+  year={2020}
+}
+```
