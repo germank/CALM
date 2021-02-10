@@ -63,7 +63,7 @@ Should you want to cite this work, you can use the following BibTeX entry:
 
 ```
 @article{Kruszewski:Sorodoc:Mikolov:2020,
-  title={Class-Agnostic Continual Learning of Alternating Languages and Domains},
+  title={Evaluating Online Continual Learning with CALM},
   author={Kruszewski, Germ{\'a}n and Sorodoc, Ionut-Teodor and Mikolov, Tomas},
   journal={arXiv preprint arXiv:2004.03340},
   year={2020}
