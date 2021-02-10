@@ -1,6 +1,6 @@
 # CALM Task
 
-This library implements the task described at the paper [_Evaluating Online Continual Learning with CALM_](https://github.com/germank/calm).
+This library implements the task described at the paper [_Evaluating Online Continual Learning with CALM_](https://arxiv.org/abs/2004.03340).
 
 ## Installation 
 
